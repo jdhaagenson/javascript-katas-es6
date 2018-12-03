@@ -9,7 +9,7 @@ Getting started is a matter of doing the following:
 3. complete katas
 
 ## Installing Dependencies
-To install dependencies, *fork this repository, and clone it* to your
+To install dependencies, *fork [this](https://gitlab.com/kenzie-academy/se/fe/code-quality/s_katas-6) repository, and clone it* to your
 machine. From the root of the repository. Remember that because you are
 _forking_ a repository, there is no need to create a new directory or run
 `npm init` in it first. Once you have this repository on your machine, you
@@ -46,14 +46,14 @@ const add = (x, y) => {
 
 # Getting Updates
 You may have noticed that we asked you to fork this repository rather than
-clone it. That's so that you can save your work and push it to GitHub. That
+clone it. That's so that you can save your work and push it to GitLab. That
 also, however, means that getting updated katas isn't as straight forward.
 
 You'll need to add the original KenzieAcademy/es6-katas repository as a
 remote and pull from _that_ to get updates.
 You can add a new origin as follows:
 ```bash
-git remote add kenzie git@github.com:KenzieAcademy/es6-katas.git
+git remote add kenzie git@gitlab.com:kenzie-academy/se/fe/code-quality/s_katas-6.git
 ```
 
 Before updating, make sure you have a clean working directory (You've
