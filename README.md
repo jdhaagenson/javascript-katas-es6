@@ -27,17 +27,17 @@ npm test
 You should then see some output like the following:
 ![test output screenshot](https://raw.githubusercontent.com/kenzieacademy/es6-katas/master/test_output.png)
 
-here, you can see that we have several test failing, as well as a hint at what we were expecting.
+Here, You can see that we have several test failing, as well as a hint at what we were expecting.
 
 ### Completing Katas
-next, you should open up whichever kata you want to work on next. we suggest starting with `katas/arrow-functions.js`. in each module, you'll find functions and expressiosn written in es5 with comments above them explaining which es6 features we'd like you to use to convert them. for example, the first "arrow functions" kata tells you to convert the add function to an arrow function. as such, you'd convert this:
+Next, You should open up whichever kata you want to work on next. We suggest starting with `katas/arrow-functions.js`. In each module, You'll find functions and expressions written in es5 with comments above them explaining which es6 features we'd like you to use to convert them. For example, the first "arrow functions" kata tells you to convert the add function to an arrow function. As such, you'd convert this:
 ```javascript
 function add(x, y) {
     return x + y;
 }
 ```
 
-into this in order to get tests to pass:
+Into this in order to get tests to pass:
 ```javascript
 const add = (x, y) => {
     return x + y;
@@ -61,6 +61,8 @@ committed first). Then pull in updates as follows:
 ```bash
 git pull kenzie master
 ```
+
+Once you complete this assesment add `kenzie-academy-grading` (GitLab member) to your repo as a `Reporter` and submit you repository URL.
 
 # FAQ
 - What are [mocha](https://mochajs.org/) and [chai](http://www.chaijs.com/)? 
