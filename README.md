@@ -62,7 +62,7 @@ committed first). Then pull in updates as follows:
 git pull kenzie master
 ```
 
-Once you complete this assessment add `kenzie-academy-grading` (GitLab member) to your repository as a `Reporter` and submit you repository URL.
+Once you complete this assessment add KA_Grading (GitLab member) to your repository as a `Reporter` and submit you repository URL.
 
 # FAQ
 - What are [mocha](https://mochajs.org/) and [chai](http://www.chaijs.com/)? 
