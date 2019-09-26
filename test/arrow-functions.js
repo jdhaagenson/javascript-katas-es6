@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const arrowFunctions = require('../katas/arrow-functions');
+const arrowFunctions = require('../s_katas-6.js');
 
 describe('arrow functions', () => {
     describe("the add function", () => {
